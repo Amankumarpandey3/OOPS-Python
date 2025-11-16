@@ -1,0 +1,5 @@
+1. Class and Obj (example)
+2. Class has data/attributes and functions and method
+    ->Code walkthrough
+    ->attributes get called itself,methods are called manually
+3. Why Python is called OOP?
