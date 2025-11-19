@@ -1,6 +1,7 @@
 class employee:
     # special method/magic method/dunder method-> constructor
     def __init__(self):
+        print(id(self))
         print("Started executing attributes/data")
         self.id=123
         self.salary=50000
@@ -12,6 +13,6 @@ class employee:
         print("Employee is travelling to ",destination)
 # create an obj/instance of the class
 sam=employee()
-
+print(id(sam))
 # print(sam.salary)
 # sam.travel("UP")
